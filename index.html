@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Project - Sign Up Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <div id="odin">
+            <img id="odin-logo" src="odin-lined.png">
+            <h1>Odin</h1>
+            </div>
+        </div>
+        <div id="right">
+            <div id="top">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+                    Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to</p>
+            </div>
+
+            <form>
+                <div id="form_container">
+                <h2>Let's do this!</h2>
+                <fieldset>
+                    <div class="form_item">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" required>
+                    </div>     
+                    <div class="form_item">                              
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" required>
+                    </div>
+                </fieldset>
+                <fieldset>    
+                    <div class="form_item">  
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="me@email.com" required>
+                    </div>
+                    <div class="form_item">  
+                        <label for="phone_number">Phone Number</label>
+                        <input type="number" name="phone_number">
+                    </div>                
+                </fieldset>
+                <fieldset>
+                    <div class="form_item">  
+                        <label for="password">Password</label>
+                        <input id="password" type="password" name="password" required>
+                    </div>
+                    <div class="form_item">  
+                        <label for="confirm_password">Confirm Password</label>
+                        <input id="confirm_password" type="password" name="confirm_password" required>
+                    </div>
+                </fieldset>
+                </div>
+                <div id="bottom">
+                <button id="submit" type="submit">Submit</button>
+
+                <p>Already have an account? Log in</p>
+            </form>
+        </div>
+        </div>
+    </div>
+    <script src="js.js" ></script>
+</body>
+</html>
